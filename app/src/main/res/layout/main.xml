@@ -1,0 +1,57 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:padding="24dp"
+                    android:text="@string/buttonStart"
+                    android:id="@+id/buttonStart"
+                    android:textColor="@color/button"
+                />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:padding="24dp"
+                    android:text="@string/buttonRank"
+                    android:id="@+id/buttonRank"
+                    android:textColor="@color/button"
+                />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:padding="24dp"
+                    android:text="@string/buttonRule"
+                    android:id="@+id/buttonRule"
+                    android:textColor="@color/button"
+                />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:padding="24dp"
+                    android:text="@string/buttonExit"
+                    android:id="@+id/buttonExit"
+                    android:textColor="@color/button"
+                />
+            </LinearLayout>
+        </TableRow>
+
+
+</TableLayout>

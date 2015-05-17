@@ -1,0 +1,9 @@
+
+<resources>
+
+    <string name="buttonStart">Начать игру</string>
+    <string name="buttonRank">Рейтинг</string>
+    <string name="buttonRule">Правила</string>
+    <string name="buttonExit">Выход</string>
+
+</resources>

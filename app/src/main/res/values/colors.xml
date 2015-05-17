@@ -1,0 +1,6 @@
+
+<resources>
+    <color  name="button" >#990000  </color>
+    <color  name="ruleBackground" >#000  </color>
+    <color  name="ruleText" >#FFF  </color>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ruleBackground"
+    >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ruleText"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rule"
+
+            android:padding="40dp"
+            android:textSize="12sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/civilRole"
+
+            android:drawableLeft="@drawable/civil"
+            android:drawablePadding="10dp"
+            android:padding="20dp"
+
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/commissionerRole"
+
+            android:drawableLeft="@drawable/commissioner"
+            android:drawablePadding="10dp"
+            android:padding="20dp"
+
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mafiaRole"
+
+            android:drawableLeft="@drawable/mafia"
+            android:drawablePadding="10dp"
+            android:padding="20dp"
+
+            android:textSize="12sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/doctorRole"
+
+            android:drawableLeft="@drawable/doctor"
+            android:drawablePadding="10dp"
+            android:padding="20dp"
+
+            android:textSize="12sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mistressRole"
+
+            android:drawableLeft="@drawable/mistress"
+            android:drawablePadding="10dp"
+            android:padding="20dp"
+
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maniacRole"
+
+            android:drawableLeft="@drawable/maniac"
+            android:drawablePadding="10dp"
+            android:padding="20dp"
+
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+</ScrollView>
